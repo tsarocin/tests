@@ -1,60 +1,83 @@
 #include <stdio.h>
-#include<stdlib.h>
-#include<string.h>
-#include "developer.h"
-#include "developer_group.h"
+#include <stdlib.h>
 
-int input=0;
-
-int main(void)
-{
-while(1){
-printf("\033[4;92m========================\n");
-printf("Choose your action: \n");
-printf("List Developers \t[1]\n");
-printf("Print Group Logo \t[2]\n");
-printf("Print Group \t\t[3]\n");
-printf("Exit \t\t\t[4]\n");
-printf("========================\033[0m\n");
-printf("Enter your selection: ");
-
-    scanf("%d", &input);
-
-    switch(input){
-
-    case 1:
-        printf("The Developers of this Programm are:\n");
-        developer massimo, nico;
-        name_init(&massimo,"Massimo Russo","MassimoRusso1");
-        name_init(&nico, "Nico Rast","tsarocin");
-        printf("Our real Names are:\n");
-        printf("%s\n",massimo.name);
-        printf("%s\n",nico.name);
-        printf("Our nicknames are:\n");
-        printf("%s\n",massimo.alias);
-        printf("%s\n",nico.alias);
-    break;
-
-    case 2:
-        printf("Here is our amazing Group Logo:");
-        developer_group logo;
-        logo_init(&logo,"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
-        printf("%s",logo.logo);
-        
-    break;
-
-    case 3:
-        printf("This is our group:");
-    break;
-
-    case 4:
-     return 0;   
-    break;
-    
-    default:
-        printf("That was not a valid input!");
-    break;
+typedef struct developer {
+    char* name;
+    char* alias;
+} developer;
+ 
+typedef struct developer_group {
+    developer* developers;
+    char* logo;
+} developer_group;
+ 
+// Function to initialize a developer
+void initDeveloper(developer *d, char* name, char* alias) {
+    d->name = name;
+    d->alias = alias;
+}
+ 
+// Function to initialize a developer_group
+void initDeveloperGroup(developer_group *dg, developer* developers, char* logo) {
+    dg->developers = developers;
+    dg->logo = logo;
+}
+ 
+// Function to list all developers
+void listDevelopers(developer_group *dg) {
+    int i;
+    for (i = 0; i < sizeof(dg->developers)/sizeof(dg->developers[0]); i++) {
+        printf("Name: %s\nAlias: %s\n\n", dg->developers[i].name, dg->developers[i].alias);
     }
-   }
-  return 0;
+}
+ 
+// Function to print the group logo
+void printLogo(developer_group *dg) {
+    printf("Group Logo: %s\n", dg->logo);
+}
+ 
+// Function to print the group
+void printGroup(developer_group *dg) {
+    listDevelopers(dg);
+    printLogo(dg);
+}
+ 
+int main() {
+    // Create developers
+    developer d1, d2, d3;
+    initDeveloper(&d1, "Nico Rast", "tsarocin");
+    initDeveloper(&d2, "Jane", "jane_doe");
+    initDeveloper(&d3, "Adam", "adam_smith");
+ 
+    // Create a developer_group
+    developer developers[] = {d1, d2, d3};
+    developer_group dg;
+    initDeveloperGroup(&dg, developers, "Hier ist ein großes Gruppenlogo");
+ 
+    // Interaction loop
+    int action = 0;
+    while (action != 4) {
+        printf("Choose your action:\nList Developers [1]\nPrint Group Logo [2]\nPrint Group [3]\nExit [4]\n\n");
+        scanf("%d", &action);
+ 
+        switch (action) {
+            case 1:
+                listDevelopers(&dg);
+                break;
+            case 2:
+                printLogo(&dg);
+                break;
+            case 3:
+                printGroup(&dg);
+                break;
+            case 4:
+                printf("Exiting...\n");
+                break;
+            default:
+                printf("Invalid action\n");
+                break;
+        }
+    }
+ 
+    return 0;
 }
