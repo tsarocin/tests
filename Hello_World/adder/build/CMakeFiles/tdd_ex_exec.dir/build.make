@@ -60,15 +60,15 @@ include CMakeFiles/tdd_ex_exec.dir/flags.make
 CMakeFiles/tdd_ex_exec.dir/src/main.cpp.o: CMakeFiles/tdd_ex_exec.dir/flags.make
 CMakeFiles/tdd_ex_exec.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/tests/Hello_World/adder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tdd_ex_exec.dir/src/main.cpp.o"
-	/usr/bin/clang  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tdd_ex_exec.dir/src/main.cpp.o -c /workspaces/tests/Hello_World/adder/src/main.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tdd_ex_exec.dir/src/main.cpp.o -c /workspaces/tests/Hello_World/adder/src/main.cpp
 
 CMakeFiles/tdd_ex_exec.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tdd_ex_exec.dir/src/main.cpp.i"
-	/usr/bin/clang $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/tests/Hello_World/adder/src/main.cpp > CMakeFiles/tdd_ex_exec.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/tests/Hello_World/adder/src/main.cpp > CMakeFiles/tdd_ex_exec.dir/src/main.cpp.i
 
 CMakeFiles/tdd_ex_exec.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tdd_ex_exec.dir/src/main.cpp.s"
-	/usr/bin/clang $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/tests/Hello_World/adder/src/main.cpp -o CMakeFiles/tdd_ex_exec.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/tests/Hello_World/adder/src/main.cpp -o CMakeFiles/tdd_ex_exec.dir/src/main.cpp.s
 
 # Object files for target tdd_ex_exec
 tdd_ex_exec_OBJECTS = \

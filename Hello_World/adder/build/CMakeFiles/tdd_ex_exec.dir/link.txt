@@ -1,1 +1,1 @@
-/usr/bin/clang     CMakeFiles/tdd_ex_exec.dir/src/main.cpp.o  -o tdd_ex_exec  -Wl,-rpath,/workspaces/tests/Hello_World/adder/build libtdd_functions_lib.so 
+/usr/bin/c++     CMakeFiles/tdd_ex_exec.dir/src/main.cpp.o  -o tdd_ex_exec  -Wl,-rpath,/workspaces/tests/Hello_World/adder/build libtdd_functions_lib.so 
