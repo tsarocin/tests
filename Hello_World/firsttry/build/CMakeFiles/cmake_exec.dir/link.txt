@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/cmake_exec.dir/student.cpp.o  -o cmake_exec 

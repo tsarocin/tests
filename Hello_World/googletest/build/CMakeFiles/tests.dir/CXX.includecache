@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/student.h
+
+/workspaces/tests/Hello_World/googletest/test/test_student_struct.cpp
+gtest/gtest.h
+/workspaces/tests/Hello_World/googletest/test/gtest/gtest.h
+student.h
+/workspaces/tests/Hello_World/googletest/test/student.h
+

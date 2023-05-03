@@ -1,0 +1,7 @@
+add_test( StudentTest.init /workspaces/tests/Hello_World/googletest/build/tests [==[--gtest_filter=StudentTest.init]==] --gtest_also_run_disabled_tests)
+set_tests_properties( StudentTest.init PROPERTIES WORKING_DIRECTORY /workspaces/tests/Hello_World/googletest/build)
+add_test( StudentTest.add_grades /workspaces/tests/Hello_World/googletest/build/tests [==[--gtest_filter=StudentTest.add_grades]==] --gtest_also_run_disabled_tests)
+set_tests_properties( StudentTest.add_grades PROPERTIES WORKING_DIRECTORY /workspaces/tests/Hello_World/googletest/build)
+add_test( StudentTest.add_grades_overflow /workspaces/tests/Hello_World/googletest/build/tests [==[--gtest_filter=StudentTest.add_grades_overflow]==] --gtest_also_run_disabled_tests)
+set_tests_properties( StudentTest.add_grades_overflow PROPERTIES WORKING_DIRECTORY /workspaces/tests/Hello_World/googletest/build)
+set( tests_TESTS StudentTest.init StudentTest.add_grades StudentTest.add_grades_overflow)

@@ -1,0 +1,1 @@
+/usr/bin/clang -fPIC   -shared -Wl,-soname,libtdd_functions_lib.so -o libtdd_functions_lib.so CMakeFiles/tdd_functions_lib.dir/src/functions.cpp.o 

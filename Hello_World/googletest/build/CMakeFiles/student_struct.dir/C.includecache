@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/student.h
+
+/workspaces/tests/Hello_World/googletest/src/student.c
+student.h
+/workspaces/tests/Hello_World/googletest/src/student.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

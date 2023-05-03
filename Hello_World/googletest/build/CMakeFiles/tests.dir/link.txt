@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/tests.dir/test/test_student_struct.cpp.o  -o tests  libstudent_struct.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 
