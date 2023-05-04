@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "adder",
+					"jsonFile" : "directory-adder-Debug-16640d09bc2414eb5b36.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "adder",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Cpp-progs"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "tdd",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "tdd_ex_exec::@64b60d8aa695d2d72937",
+					"jsonFile" : "target-tdd_ex_exec-Debug-d8a630dc66f0797f9f3c.json",
+					"name" : "tdd_ex_exec",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tdd_functions_lib::@64b60d8aa695d2d72937",
+					"jsonFile" : "target-tdd_functions_lib-Debug-7bdb0769e433c5be67b0.json",
+					"name" : "tdd_functions_lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tdd_tests::@64b60d8aa695d2d72937",
+					"jsonFile" : "target-tdd_tests-Debug-5b3bff62e3aa1f9a2243.json",
+					"name" : "tdd_tests",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/tests/build",
+		"source" : "/workspaces/tests/Hello_World"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

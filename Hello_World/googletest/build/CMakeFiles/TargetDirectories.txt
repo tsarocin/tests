@@ -1,6 +1,0 @@
-/workspaces/tests/Hello_World/googletest/build/CMakeFiles/rebuild_cache.dir
-/workspaces/tests/Hello_World/googletest/build/CMakeFiles/edit_cache.dir
-/workspaces/tests/Hello_World/googletest/build/CMakeFiles/test.dir
-/workspaces/tests/Hello_World/googletest/build/CMakeFiles/tests.dir
-/workspaces/tests/Hello_World/googletest/build/CMakeFiles/student_struct_hw7_exec.dir
-/workspaces/tests/Hello_World/googletest/build/CMakeFiles/student_struct.dir

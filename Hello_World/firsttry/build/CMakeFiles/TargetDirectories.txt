@@ -1,3 +1,0 @@
-/workspaces/tests/Hello_World/build/CMakeFiles/rebuild_cache.dir
-/workspaces/tests/Hello_World/build/CMakeFiles/edit_cache.dir
-/workspaces/tests/Hello_World/build/CMakeFiles/cmake_exec.dir
