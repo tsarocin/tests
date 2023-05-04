@@ -1,4 +1,0 @@
-StudentTest.init 2 0.00194637
-StudentTest.add_grades 2 0.00216677
-StudentTest.add_grades_overflow 2 0.00211632
----

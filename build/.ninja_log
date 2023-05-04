@@ -1,0 +1,9 @@
+# ninja log v5
+0	78	1683183167251693128	adder/CMakeFiles/tdd_functions_lib.dir/src/functions.cpp.o	43b346fce89215de
+1118	1597	1683183168775695361	adder/tdd_tests	86e0de8c0d93d323
+78	267	1683183167439693404	adder/libtdd_functions_lib.so	76aa94edaf126fd3
+3	1117	1683183168287694646	adder/CMakeFiles/tdd_tests.dir/test/test_functions.cpp.o	8a5bad6927b5712d
+0	595	1683183167767693884	adder/CMakeFiles/tdd_ex_exec.dir/src/main.cpp.o	80698eaccb5a58cf
+1118	1597	1683183168775695361	adder/tdd_tests[1]_tests.cmake	86e0de8c0d93d323
+600	700	1683183167871694037	adder/tdd_ex_exec	67b89a7499a192f0
+1118	1597	1683183168775695361	/workspaces/tests/build/adder/tdd_tests[1]_tests.cmake	86e0de8c0d93d323

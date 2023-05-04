@@ -25,4 +25,21 @@ target_include_directories(tdd_ex_exec PUBLIC include)
 # link your library
 target_link_libraries(tdd_ex_exec PRIVATE tdd_functions_lib)
 
+# enable the testing
+enable_testing()
+# check if we have gtest
+find_package(GTest REQUIRED)
+# include the gtest CMake stuff
+include(GoogleTest)
+# create a test executable
+add_executable(tdd_tests test/test_functions.cpp)
+# link the gtest libraries
+target_link_libraries(tdd_tests PRIVATE GTest::GTest GTest::Main)
+# link the library we want to test
+target_link_libraries(tdd_tests PRIVATE tdd_functions_lib)
+# add the include directories
+target_include_directories(tdd_tests PUBLIC include)
+# discover and add tests to the test list
+gtest_discover_tests(tdd_tests)
+
 

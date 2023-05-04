@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/student_struct_hw7_exec.dir/src/main.c.o  -o student_struct_hw7_exec  libstudent_struct.a 

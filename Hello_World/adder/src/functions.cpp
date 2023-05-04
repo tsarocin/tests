@@ -1,6 +1,6 @@
-#ifndef FUNCTIONS_H_jptKgDLPEQ
-#define FUNCTIONS_H_jptKgDLPEQ
+#include "functions.h"
 
-int add_integers(int num_a, int num_b);
-
-#endif /* FUNCTIONS_H_jptKgDLPEQ */
+int add_integers(int num_a, int num_b)
+{
+    return num_a + num_b;
+}
