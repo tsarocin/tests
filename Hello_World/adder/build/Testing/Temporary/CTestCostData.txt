@@ -1,0 +1,3 @@
+tdd_tests.add_standard_integers 1 0.00387341
+tdd_tests.add_zeros 1 0.00363141
+---

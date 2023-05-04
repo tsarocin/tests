@@ -1,0 +1,5 @@
+if(EXISTS "/workspaces/tests/Hello_World/adder/build/tdd_tests[1]_tests.cmake")
+  include("/workspaces/tests/Hello_World/adder/build/tdd_tests[1]_tests.cmake")
+else()
+  add_test(tdd_tests_NOT_BUILT tdd_tests_NOT_BUILT)
+endif()

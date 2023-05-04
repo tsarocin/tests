@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/functions.h
+
+/workspaces/tests/Hello_World/adder/src/functions.cpp
+functions.h
+/workspaces/tests/Hello_World/adder/src/functions.h
+

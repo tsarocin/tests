@@ -1,0 +1,57 @@
+Start testing: May 04 20:32 UTC
+----------------------------------------------------------
+1/2 Testing: tdd_tests.add_standard_integers
+1/2 Test: tdd_tests.add_standard_integers
+Command: "/workspaces/tests/Hello_World/adder/build/tdd_tests" "--gtest_filter=tdd_tests.add_standard_integers" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/tests/Hello_World/adder/build
+"tdd_tests.add_standard_integers" start time: May 04 20:32 UTC
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = tdd_tests.add_standard_integers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from tdd_tests
+[ RUN      ] tdd_tests.add_standard_integers
+[       OK ] tdd_tests.add_standard_integers (0 ms)
+[----------] 1 test from tdd_tests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"tdd_tests.add_standard_integers" end time: May 04 20:32 UTC
+"tdd_tests.add_standard_integers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: tdd_tests.add_zeros
+2/2 Test: tdd_tests.add_zeros
+Command: "/workspaces/tests/Hello_World/adder/build/tdd_tests" "--gtest_filter=tdd_tests.add_zeros" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/tests/Hello_World/adder/build
+"tdd_tests.add_zeros" start time: May 04 20:32 UTC
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = tdd_tests.add_zeros
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from tdd_tests
+[ RUN      ] tdd_tests.add_zeros
+[       OK ] tdd_tests.add_zeros (0 ms)
+[----------] 1 test from tdd_tests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"tdd_tests.add_zeros" end time: May 04 20:32 UTC
+"tdd_tests.add_zeros" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 04 20:32 UTC
