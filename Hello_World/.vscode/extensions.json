@@ -5,7 +5,7 @@
         "twxs.cmake",
         "mhutchie.git-graph",
         "ms-vscode.cpptools-themes",
-        "cs128.cs128-clang-tidy",
+        "notskm.clang-tidy",
         "xaver.clang-format",
         "marp-team.marp-vscode",
         "zaaack.markdown-editor",
@@ -17,8 +17,6 @@
         "franneck94.c-cpp-runner",
         "DavidAnson.vscode-markdownlint",
         "mdickin.markdown-shortcuts",
-        "ElecTreeFrying.insert-random-text",
-        "streetsidesoftware.code-spell-checker-british-english",
-        "streetsidesoftware.code-spell-checker-german"
+        "ElecTreeFrying.insert-random-text"
     ],
 }
