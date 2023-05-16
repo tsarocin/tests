@@ -69,4 +69,9 @@
         "variant": "cpp"
     },
     "cmake.sourceDirectory": "/workspaces/tests/Hello_World/adder",
+    "cSpell.words": [
+        "cppcoreguidelines",
+        "hicpp",
+        "nico"
+    ],
 }

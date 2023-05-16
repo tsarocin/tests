@@ -1,0 +1,1 @@
+/usr/bin/clang++  -g   CMakeFiles/tdd_tests.dir/test/test_functions.cpp.o  -o tdd_tests  libtdd_functions_lib.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 

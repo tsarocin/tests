@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtdd_functions_lib.a  CMakeFiles/tdd_functions_lib.dir/src/functions.cpp.o
+/usr/bin/ranlib libtdd_functions_lib.a
