@@ -9,7 +9,7 @@ int main() {
     mosquitto_lib_init();
     mosq = mosquitto_new("publisher-test", true, nullptr);
 
-    rc = mosquitto_connect(mosq, "localhost", 1884, 60);
+    rc = mosquitto_connect(mosq, "localhost", 1883, 60);
     if (rc != 0) {
         std::cout << "Client could not connect to broker! Error Code: " << rc << std::endl;
         mosquitto_destroy(mosq);
