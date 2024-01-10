@@ -19,7 +19,7 @@ int main() {
 
     std::cout << "We are now connected to the broker!" << std::endl;
 
-    const char* message = "Hello";
+    const char* message = "Hello you are awesome";
     rc = mosquitto_publish(mosq, nullptr, "test/t1", std::strlen(message), message, 0, false);
     if (rc != 0) {
         std::cerr << "Error publishing message! Error Code: " << rc << std::endl;
