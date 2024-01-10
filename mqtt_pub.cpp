@@ -19,8 +19,14 @@ int main() {
 
     std::cout << "We are now connected to the broker!" << std::endl;
 
-    const char* message = "Hello you are a great hacker";
-    rc = mosquitto_publish(mosq, nullptr, "weather/temp", std::strlen(message), message, 0, false);
+    const char* message1 = "It is cold, use a jacket";
+    rc = mosquitto_publish(mosq, nullptr, "weather/temperature", std::strlen(message1), message1, 0, false);
+    if (rc != 0) {
+        std::cerr << "Error publishing message! Error Code: " << rc << std::endl;
+    }
+
+    const char* message2 = "It is dark, use a light";
+    rc = mosquitto_publish(mosq, nullptr, "weather/light", std::strlen(message2), message2, 0, false);
     if (rc != 0) {
         std::cerr << "Error publishing message! Error Code: " << rc << std::endl;
     }
