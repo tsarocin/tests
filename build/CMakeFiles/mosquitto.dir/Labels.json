@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/tests/build/CMakeFiles/mosquitto"
+		},
+		{
+			"file" : "/workspaces/tests/build/CMakeFiles/mosquitto.rule"
+		},
+		{
+			"file" : "/workspaces/tests/build/CMakeFiles/mosquitto-complete.rule"
+		},
+		{
+			"file" : "/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-build.rule"
+		},
+		{
+			"file" : "/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-configure.rule"
+		},
+		{
+			"file" : "/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-download.rule"
+		},
+		{
+			"file" : "/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-install.rule"
+		},
+		{
+			"file" : "/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-patch.rule"
+		},
+		{
+			"file" : "/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mosquitto"
+		],
+		"name" : "mosquitto"
+	}
+}

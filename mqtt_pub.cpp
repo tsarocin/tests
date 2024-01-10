@@ -7,9 +7,9 @@ int main() {
     struct mosquitto *mosq;
 
     mosquitto_lib_init();
-    mosq = mosquitto_new("publisher-test", true, nullptr);
+    mosq = mosquitto_new("weather_publisher", true, nullptr);
 
-    rc = mosquitto_connect(mosq, "localhost", 1883, 60);
+    rc = mosquitto_connect(mosq, "test.mosquitto.org", 1883, 60);
     if (rc != 0) {
         std::cout << "Client could not connect to broker! Error Code: " << rc << std::endl;
         mosquitto_destroy(mosq);
@@ -19,8 +19,8 @@ int main() {
 
     std::cout << "We are now connected to the broker!" << std::endl;
 
-    const char* message = "Hello you are awesome";
-    rc = mosquitto_publish(mosq, nullptr, "test/t1", std::strlen(message), message, 0, false);
+    const char* message = "Hello you are a great hacker";
+    rc = mosquitto_publish(mosq, nullptr, "weather/temp", std::strlen(message), message, 0, false);
     if (rc != 0) {
         std::cerr << "Error publishing message! Error Code: " << rc << std::endl;
     }

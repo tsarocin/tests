@@ -1,0 +1,13 @@
+# Target labels
+ mosquitto
+# Source files and their labels
+/workspaces/tests/build/CMakeFiles/mosquitto
+/workspaces/tests/build/CMakeFiles/mosquitto.rule
+/workspaces/tests/build/CMakeFiles/mosquitto-complete.rule
+/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-build.rule
+/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-configure.rule
+/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-download.rule
+/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-install.rule
+/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-mkdir.rule
+/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-patch.rule
+/workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-update.rule

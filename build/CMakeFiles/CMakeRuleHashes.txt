@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+3daf8377a716f323c13ce5232cf51a5e mosquitto-prefix/src/mosquitto-stamp/mosquitto-download
+7e9fbcdf1e51d399f9a316be4071682b mosquitto-prefix/src/mosquitto-stamp/mosquitto-mkdir
+35dda647c6c7428ce612a6fb9ecaa1b3 mosquitto-prefix/src/mosquitto-stamp/mosquitto-patch
