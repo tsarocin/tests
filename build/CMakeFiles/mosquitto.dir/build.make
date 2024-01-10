@@ -89,7 +89,7 @@ mosquitto-prefix/src/mosquitto-stamp/mosquitto-build: mosquitto-prefix/src/mosqu
 mosquitto-prefix/src/mosquitto-stamp/mosquitto-configure: mosquitto-prefix/tmp/mosquitto-cfgcmd.txt
 mosquitto-prefix/src/mosquitto-stamp/mosquitto-configure: mosquitto-prefix/src/mosquitto-stamp/mosquitto-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspaces/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'mosquitto'"
-	cd /workspaces/tests/build/mosquitto-prefix/src/mosquitto-build && /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/workspaces/tests/build/mosquitto-install "-GUnix Makefiles" -S /workspaces/tests/build/mosquitto-prefix/src/mosquitto -B /workspaces/tests/build/mosquitto-prefix/src/mosquitto-build
+	cd /workspaces/tests/build/mosquitto-prefix/src/mosquitto-build && /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/usr/local "-GUnix Makefiles" -S /workspaces/tests/build/mosquitto-prefix/src/mosquitto -B /workspaces/tests/build/mosquitto-prefix/src/mosquitto-build
 	cd /workspaces/tests/build/mosquitto-prefix/src/mosquitto-build && /usr/bin/cmake -E touch /workspaces/tests/build/mosquitto-prefix/src/mosquitto-stamp/mosquitto-configure
 
 mosquitto-prefix/src/mosquitto-stamp/mosquitto-download: mosquitto-prefix/src/mosquitto-stamp/mosquitto-gitinfo.txt

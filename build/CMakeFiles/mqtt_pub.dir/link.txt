@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/mqtt_pub.dir/mqtt_pub.cpp.o -o mqtt_pub  /usr/lib/x86_64-linux-gnu/libmosquitto.so 
+/usr/bin/c++ CMakeFiles/mqtt_pub.dir/mqtt_pub.cpp.o -o mqtt_pub  -lmosquitto 
