@@ -1,0 +1,3 @@
+/workspaces/tests/build/CMakeFiles/mqtt_pub.dir
+/workspaces/tests/build/CMakeFiles/edit_cache.dir
+/workspaces/tests/build/CMakeFiles/rebuild_cache.dir
